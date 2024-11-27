@@ -1,0 +1,490 @@
+<h1>第一章 概述</h1>
+<h3>1.1 三网融合的概念</h3>
+<p>电信网络，有线电视网络，计算机网络·	</p>
+<p>&nbsp;</p>
+<h3>1.2 计算机网络特点</h3>
+<p>连通性，共享</p>
+<p>&nbsp;</p>
+<h3>1.3 互联网基础结构发展的三个阶段</h3>
+<p>单一网络阶段（20世纪60-70年代）</p>
+<p>互连网络阶段（20世纪80-90年代）</p>
+<p>全球互联网阶段（20世纪90年代至今）</p>
+<p>&nbsp;</p>
+<h3>1.4 客户-服务器方式</h3>
+<p>客户 (Client) 和服务器 (Server) 是指通信中涉及的两个应用进程。</p>
+<p>&nbsp;</p>
+<h3>1.5 ISP和IXP</h3>
+<h4>1.5.1.<strong>ISP (Internet Service Provider) - 互联网服务提供商</strong></h4>
+<ul>
+<li><p><strong>定义</strong>： ISP 是向用户提供互联网接入服务的公司或组织。</p>
+</li>
+<li><p><strong>功能</strong>：</p>
+<ul>
+<li>提供上网服务（如宽带、光纤、无线网络等）。</li>
+<li>为家庭、企业或机构提供邮件、网站托管等附加服务。</li>
+<li>通过向更高层级的网络（如国家骨干网）购买带宽，连接用户到互联网。</li>
+
+</ul>
+</li>
+<li><p><strong>例子</strong>：</p>
+<ul>
+<li>中国电信、中国移动、中国联通等。</li>
+
+</ul>
+</li>
+
+</ul>
+<h4>1.5.2. <strong>IXP (Internet Exchange Point) - 互联网交换中心</strong></h4>
+<ul>
+<li><p><strong>定义</strong>： IXP 是一个物理设施，允许不同的 ISP 和网络提供商相互连接并交换流量，而无需通过第三方网络。</p>
+</li>
+<li><p><strong>功能</strong>：</p>
+<ul>
+<li>提高数据传输效率，减少延迟。</li>
+<li>减少网络流量绕行，降低跨网络传输的成本。</li>
+<li>增强不同网络间的互联互通能力。</li>
+
+</ul>
+</li>
+<li><p><strong>特点</strong>：</p>
+<ul>
+<li><p>通过 IXP，不同的 ISP 可以直接交换数据，避免依赖第三方的骨干网络。</p>
+</li>
+<li><p>例如，北京互联网交换中心 (BJIX)。</p>
+<p>&nbsp;</p>
+</li>
+
+</ul>
+</li>
+
+</ul>
+<h3>1.6 对等连接工作方式（P2P)</h3>
+<h4><strong>定义</strong></h4>
+<p>对等连接（P2P）是一种分布式网络模型，节点（设备）既可以作为客户端请求服务，也可以作为服务器提供服务，无需依赖中央服务器。</p>
+<h4><strong>特点</strong></h4>
+<ol>
+<li><strong>去中心化</strong>：没有中央控制点，所有节点对等。</li>
+<li><strong>资源共享</strong>：节点之间直接共享计算能力、存储空间和带宽。</li>
+<li><strong>灵活高效</strong>：支持动态加入和退出，抗单点故障能力强。</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>1.7 互联网的核心部分</h3>
+<p>电路交换，报文交换，分组交换</p>
+<p>&nbsp;</p>
+<h3>1.8 计算机网络类别（按作用范围分类）</h3>
+<p>广域网，域域网，局域网，个人区域网</p>
+<p>&nbsp;</p>
+<h3>1.9 时延</h3>
+<p><strong>定义</strong>：
+时延指的是数据（如报文或分组）从网络（或链路）的一端传送到另一端所需的时间。有时也称为 <strong>延迟</strong> 或 <strong>迟延</strong>。</p>
+<p><strong>时延的组成部分</strong>：</p>
+<ul>
+<li><strong>发送时延</strong>：数据从发送端传输到网络所需的时间。</li>
+<li><strong>传播时延</strong>：数据在物理介质上传输的时间。</li>
+<li><strong>处理时延</strong>：网络节点（如路由器、交换机）处理数据所需的时间。</li>
+<li><strong>排队时延</strong>：数据在传输节点等待被处理或发送的时间。</li>
+
+</ul>
+<p>&nbsp;</p>
+<h3>1.10 网络协议三个组成要素</h3>
+<p>语义，语法，同步</p>
+<p>&nbsp;</p>
+<h3>1.11 协议与服务的区别</h3>
+<h4><strong>协议</strong></h4>
+<ol>
+<li>协议实现了向上一层提供服务的功能保障。</li>
+<li>对于上层的服务用户是透明的。</li>
+<li>协议是“<strong>水平的</strong>”，即发生在同一层级的设备之间。</li>
+
+</ol>
+<h4><strong>服务</strong></h4>
+<ol>
+<li>上层通过服务接口请求由下层提供的服务。</li>
+<li>上层只能看到服务，无法感知底层协议。</li>
+<li>服务是“<strong>垂直的</strong>”，即从下层向上层提供。</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>1.12 五层协议体系结构</h3>
+<p>应用层、传输层、网络层、数据链路层、物理层</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>第二章 物理层</h1>
+<h3>1 物理层接口四个特性</h3>
+<p>机械特性，电气特性，功能特性，过程特性</p>
+<p>&nbsp;</p>
+<h3>2 通信的三种基本方式</h3>
+<p>单向通行，双向交替通信，双向同时通信</p>
+<p>&nbsp;</p>
+<h3>3 常用编码方式</h3>
+<p>不归零制，归零制，曼彻斯特编码，差分曼彻斯特编码</p>
+<p>&nbsp;</p>
+<h3>4 基本带通调制方法</h3>
+<p>调幅，调频，调相</p>
+<p>&nbsp;</p>
+<h3>5 传输媒体两大类</h3>
+<p>导引型传输媒体，非导引型传输媒体</p>
+<p>&nbsp;</p>
+<h3>6 双绞线</h3>
+<h4><strong>1. 无屏蔽双绞线 </strong></h4>
+<p> 特点：</p>
+<ul>
+<li>没有屏蔽层。</li>
+<li>价格便宜。</li>
+
+</ul>
+<ul>
+<li><strong>适用场景</strong>：一般用于短距离传输，如家庭和办公室的局域网。</li>
+
+</ul>
+<h4><strong>2. 屏蔽双绞线</strong></h4>
+<ul>
+<li><p>特点：</p>
+<ul>
+<li>带有屏蔽层，可以减少外界电磁干扰。</li>
+<li>必须连接地线。</li>
+
+</ul>
+</li>
+<li><p><strong>适用场景</strong>：适用于干扰较强的环境，例如工业场所或高密度网络。</p>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+<h3>7 信道复用技术（五种）</h3>
+<p>知道五种的基本工作过程</p>
+<p>频分复用，时分复用，统计时分复用，波分复用，码分复用</p>
+<p>&nbsp;</p>
+<h4>1. <strong>频分复用</strong></h4>
+<ul>
+<li><p>基本工作过程：</p>
+<ol>
+<li>将信道的总频率带宽划分为多个互不重叠的子带宽。</li>
+<li>每个用户占用不同的频率子带，信号之间通过带宽分隔。</li>
+<li>接收端通过滤波器将各个子频带的信号分离还原。</li>
+
+</ol>
+</li>
+<li><p>特点：</p>
+<ul>
+<li>同一时间内多个用户同时传输数据，但频率不同。</li>
+<li>适合模拟信号的传输。</li>
+
+</ul>
+</li>
+<li><p><strong>应用</strong>：广播电视、传统电话通信。</p>
+</li>
+
+</ul>
+<hr />
+<h4><strong>2. 时分复用</strong></h4>
+<ul>
+<li><p>基本工作过程：</p>
+<ol>
+<li>将传输时间划分为多个时间片，每个用户占用不同的时间片传输数据。</li>
+<li>用户在自己的时间片内独占信道，轮流发送数据。</li>
+<li>接收端根据时间片还原对应用户的数据。</li>
+
+</ol>
+</li>
+<li><p>特点：</p>
+<ul>
+<li>数据在时间上分隔，信道的利用率较高。</li>
+<li>需要严格的时间同步。</li>
+
+</ul>
+</li>
+<li><p><strong>应用</strong>：GSM移动通信、数字电话通信。</p>
+</li>
+
+</ul>
+<hr />
+<h4>  3. 统计时分复用</h4>
+<ul>
+<li><p>基本工作过程：</p>
+<ol>
+<li>动态分配时间片，根据用户的实际需求分配传输资源。</li>
+<li>未占用时间片的用户不会浪费信道资源，利用率更高。</li>
+<li>接收端通过地址或标识区分数据的所属用户。</li>
+
+</ol>
+</li>
+<li><p>特点：</p>
+<ul>
+<li>信道利用率比固定时分复用更高。</li>
+<li>适用于传输突发性数据。</li>
+
+</ul>
+</li>
+<li><p><strong>应用</strong>：现代网络中的数据通信，如计算机网络。</p>
+</li>
+
+</ul>
+<hr />
+<h4><strong>4. 波分复用</strong></h4>
+<ul>
+<li><p>基本工作过程：</p>
+<ol>
+<li>将光纤信道的光波划分为多个不同的波长（即频率）。</li>
+<li>不同的波长（信号）承载不同用户的数据。</li>
+<li>接收端通过光学滤波器分离出各个波长的数据。</li>
+
+</ol>
+</li>
+<li><p>特点：</p>
+<ul>
+<li>专用于光纤通信，支持多用户同时高速传输。</li>
+<li>带宽利用率高，但设备成本较高。</li>
+
+</ul>
+</li>
+<li><p><strong>应用</strong>：光纤通信、骨干网。</p>
+</li>
+
+</ul>
+<hr />
+<h4><strong>5. 码分复用</strong></h4>
+<ul>
+<li><p>基本工作过程：</p>
+<ol>
+<li>每个用户分配一个独特的伪随机码，用于加密和解密信号。</li>
+<li>所有用户的信号可以同时占用整个频率带宽，但通过不同的伪随机码进行区分。</li>
+<li>接收端利用相应的伪随机码提取特定用户的数据，其他用户的信号被视为噪声。</li>
+
+</ol>
+</li>
+<li><p>特点：</p>
+<ul>
+<li>抗干扰能力强，可支持更多用户。</li>
+<li>解码过程复杂，硬件要求高。</li>
+
+</ul>
+</li>
+<li><p><strong>应用</strong>：3G通信、卫星通信。</p>
+</li>
+
+</ul>
+<hr />
+<h3><strong>总结对比</strong></h3>
+<figure class='table-figure'><table>
+<thead>
+<tr><th><strong>复用技术</strong></th><th><strong>分隔方式</strong></th><th><strong>同时传输的用户数</strong></th><th><strong>适用场景</strong></th></tr></thead>
+<tbody><tr><td><strong>频分复用</strong></td><td>频率</td><td>多个</td><td>模拟信号、广播电视</td></tr><tr><td><strong>时分复用</strong></td><td>时间</td><td>一个（每时段）</td><td>GSM通信、数字电话</td></tr><tr><td><strong>统计时分复用</strong></td><td>动态时间分配</td><td>动态分配（按需）</td><td>计算机网络数据传输</td></tr><tr><td><strong>波分复用</strong></td><td>光波波长</td><td>多个</td><td>光纤通信、骨干网</td></tr><tr><td><strong>码分复用</strong></td><td>伪随机码</td><td>多个</td><td>3G通信、卫星通信</td></tr></tbody>
+</table></figure>
+<p>&nbsp;</p>
+<h3>8 宽带接入技术（选择题）</h3>
+<p>ADSL技术，光纤同轴混合网（HFC网），FTTx技术</p>
+<p>&nbsp;</p>
+<h1>第三章 数据链路层</h1>
+<h3>1.PPP协议的组成</h3>
+<p>三个组成部分：</p>
+<p>一个将IP数据报封装到串行链路的方法。</p>
+<p>一个链路控制协议LCP (Link Control Protocol)</p>
+<p>一套网络控制协议 NCP (Network Control Protocol)。</p>
+<p>&nbsp;</p>
+<h3>2 <strong>局域网数据链路层两个子层</strong></h3>
+<ol>
+<li><strong>逻辑链路控制子层</strong> ：与传输媒体无关。</li>
+<li><strong>媒体接入控制子层 (MAC, Medium Access Control)</strong>：与传输媒体有关。</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>3 <strong>CSMA/CD协议工作流程详解</strong></h3>
+<h4><strong>工作原理</strong></h4>
+<ol>
+<li><p><strong>载波侦听 (Carrier Sense)</strong>：</p>
+<p>在发送数据前，节点会侦听信道，检查信道是否空闲。</p>
+<p>如果信道空闲，节点开始发送数据；否则，等待信道变为空闲。</p>
+</li>
+<li><p><strong>多点接入 (Multiple Access)</strong>：</p>
+<p>所有节点共享同一信道，任何节点都有权访问信道。</p>
+</li>
+<li><p><strong>碰撞检测 (Collision Detection)</strong>：</p>
+<p>如果多个节点同时侦听到信道空闲并开始发送数据，就会发生数据冲突（碰撞）。</p>
+<p>节点在发送数据时会监测信号是否正常：</p>
+<p>如果检测到信号干扰，表示发生了碰撞。</p>
+</li>
+<li><p><strong>碰撞处理</strong>：</p>
+<p>一旦发生碰撞，节点立即停止发送数据。</p>
+<p>所有发生碰撞的节点发送干扰信号通知其他节点，表示信道被占用。</p>
+</li>
+<li><p><strong>重传机制</strong>：</p>
+<p>节点在随机时间后重新尝试发送数据。</p>
+<p>如果多次发生碰撞，随机等待的时间指数增加（称为<strong>退避算法</strong>）。</p>
+</li>
+
+</ol>
+<p>&nbsp;</p>
+<h4><strong>工作流程图解</strong></h4>
+<ol>
+<li><p>准备发送：</p>
+<p>节点侦听信道，确认是否空闲。</p>
+</li>
+<li><p>检测到空闲：</p>
+<p>开始发送数据，同时检测碰撞。</p>
+</li>
+<li><p>碰撞检测：</p>
+<p>如果检测到碰撞，停止发送数据并发送干扰信号。</p>
+<p>等待随机时间后重新尝试发送。</p>
+</li>
+<li><p>发送完成：</p>
+<p>如果没有发生碰撞，节点成功完成数据发送。</p>
+</li>
+
+</ol>
+<p>&nbsp;</p>
+<h4><strong>例子帮助理解</strong></h4>
+<p>假设一条共享网络上有三台计算机（A、B、C）：</p>
+<ol>
+<li>A开始侦听信道，发现空闲，于是发送数据。</li>
+<li>同时，B也侦听到信道空闲，开始发送数据。</li>
+<li>A和B的数据发生碰撞，两个节点停止发送，并发出碰撞信号。</li>
+<li>A和B随机等待后重新尝试发送，直到信道再次空闲。</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>4  星型以太网 10 BASE - T</h3>
+<p><strong>代表含义</strong></p>
+<p>10 Mbit/s</p>
+<p>BASE 基带</p>
+<p>T - 双绞线</p>
+<p>&nbsp;</p>
+<h3><strong>5 48位MAC地址的组成</strong></h3>
+<p><img src="C:\Users\澄心\AppData\Roaming\Typora\typora-user-images\image-20241125204402960.png" referrerpolicy="no-referrer" alt="image-20241125204402960"></p>
+<ol>
+<li><p><strong>结构</strong>：</p>
+<ul>
+<li><p>前24位：组织唯一标识符（OUI, Organizationally Unique Identifier）。</p>
+<ul>
+<li>由IEEE分配给厂商，用于标识设备的制造商。</li>
+
+</ul>
+</li>
+<li><p>后24位：扩展标识符（Extended Identifier）。</p>
+<ul>
+<li>由厂商自行分配，用于标识设备的具体地址。</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>6 <strong>使用集线器扩展以太网的优缺点</strong></h3>
+<h4><strong>优点</strong>：</h4>
+<ol>
+<li><strong>跨冲突域通信</strong>：
+不同冲突域（碰撞域）的计算机可以通过集线器实现跨冲突域通信。</li>
+<li><strong>扩展覆盖范围</strong>：
+增大了以太网覆盖的地理范围。</li>
+
+</ol>
+<h4><strong>缺点</strong>：</h4>
+<ol>
+<li><strong>碰撞域增大</strong>：
+总的冲突量增加，导致网络效率降低。</li>
+<li><strong>互连限制</strong>：
+如果使用不同的以太网技术（如不同数据速率），集线器无法将它们互连。</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>7 以太网交换机自学习功能</h3>
+<p>要掌握，会考计算题</p>
+<p>&nbsp;</p>
+<h3>8 生成树协议</h3>
+<ul>
+<li><p><strong>目的</strong>：
+通过断开部分冗余链路，消除网络中可能出现的环路，确保以太网的无环路结构。</p>
+</li>
+<li><p><strong>特点</strong>：</p>
+<ol>
+<li>不改变网络的物理拓扑。</li>
+<li>在逻辑上切断部分链路，形成无环路的树状结构。</li>
+<li>使得从任何主机到其他主机的路径唯一且无环。</li>
+
+</ol>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+<h3>9 <strong>划分虚拟局域网的方法：</strong></h3>
+<ol>
+<li>基于交换机端口</li>
+<li>基于计算机网卡的 MAC 地址</li>
+<li>基于协议类型</li>
+<li>基于 IP 子网地址</li>
+<li>基于高层应用或服务</li>
+
+</ol>
+<h1>第四章</h1>
+<h3>1 网际协议IP </h3>
+<p>与协议IP配套使用的三个协议：</p>
+<ol>
+<li>地址解析协议</li>
+<li>网际控制报文协议</li>
+<li>网际组管理协议</li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>2 IP地址及其表示方法</h3>
+<img src="http://192.168.192.101:9000/hello-minio/IP地址.jpg" alt="IP地址及其表示方法"
+
+<p>&nbsp;</p>
+<h3>3 分类的IP地址</h3>
+<img src="http://192.168.192.101:9000/hello-minio/分类的IP地址.jpg" alt="分类的IP地址"
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>4 分配IP地址时全0和全1的不能分配</h3>
+<p>&nbsp;</p>
+<h3>5 无分类编制CIDR</h3>
+<p>5.1</p>
+<p>5.2</p>
+<p>5.3</p>
+<p>&nbsp;</p>
+<p> </p>
+<p>6</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>7</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>8</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>9</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>10</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>第五章</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>第六章</h1>
